@@ -13,6 +13,7 @@ import Forum from "./pages/module3/Forum"
 import Faq from "./pages/module3/FAQ"
 // Module 4 imports
 // Module 5 imports
+import Admin from "./pages/module5/admin"
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Route path="/forum" element={<Forum />} />
             <Route path="/faq" element={<Faq />} />
 
+            <Route path="/admin" element={<Admin />} />
           </Routes>
     </Router>
   );
