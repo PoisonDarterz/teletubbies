@@ -8,6 +8,7 @@ import ForgotPwd from "./pages/general/ForgotPwd"
 // Module 1 imports
 // Module 2 imports
 import Resource from "./pages/module2/resource"
+import Training from "./pages/module2/training"
 // Module 3 imports
 import Module3 from "./pages/module3/Module3"
 import Forum from "./pages/module3/Forum"
@@ -27,6 +28,16 @@ function App() {
         <Route path="/" element={<Login />} />
         <Route path="/forgotpwd" element={<ForgotPwd />} />
 
+            <Route path="/resource" element={<Resource />} />
+            <Route path="/training" element={<Training />} />
+
+            <Route path="/module3" element={<Module3 />} />
+            <Route path="/forum" element={<Forum />} />
+            <Route path="/faq" element={<Faq />} />
+
+            <Route path="/admin" element={<Admin />} />
+            
+          </Routes>
         {/* Module 1 routes */}
         {/* Module 2 routes */}
         <Route path="/resource" element={<Resource />} />
@@ -41,8 +52,8 @@ function App() {
         <Route path="/engagement" element={<Engagement />} />
         <Route path="/schedule" element={<Schedule />} />
 
-      </Routes>
-    </Router>
+      </Router>
+  
   );
 }
 
