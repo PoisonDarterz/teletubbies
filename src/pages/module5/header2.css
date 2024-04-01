@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  .title {
+    color: #8F8C8C;
+    font-size: 20px; /* adjust this value to change the font size */
+  }
+  
+  .title.active {
+    color: #337ACC;
+    border-bottom: 2px solid #337ACC;
+  }
+  
+  .title1 {
+    color: #1E1F20;
+    font-size: 35px; 
+    margin-top: 65px; 
+    padding-left: 50px; 
+    padding-right: 20px; 
+    font-weight: bold; 
+  }
+  
+  .title2 {
+    color: #1E1F20;
+    font-size: 22px; 
+    padding-left: 50px;
+    padding-right: 20px; 
+    font-weight: 600; 
+  }
+
+  .calendar-container {
+    padding-left: 50px; 
+    padding-right: 20px;
+    margin-top: 60px; 
+  }
