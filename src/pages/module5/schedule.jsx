@@ -12,10 +12,12 @@ function Schedule() {
       <TopNav />
       <Header2 />
       <div className="flex">
-        <div className="ml-5 mr-12">
+        <div className="ml-12 mr-12 w-2/5">
+            <br></br><br></br><br></br>
           <MyCalendar showButton={false} />
           <Button />
         </div>
+         
         <Word />
       </div>
       <Bottom />

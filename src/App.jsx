@@ -19,6 +19,8 @@ import Module4 from "./pages/module4/Module4"
 import Admin from "./pages/module5/admin"
 import Engagement from "./pages/module5/engagement";
 import Schedule from "./pages/module5/schedule";
+import HR from "./pages/module5/hr";
+
 
 function App() {
   return (
@@ -41,6 +43,7 @@ function App() {
         <Route path="/admin" element={<Admin />} />
         <Route path="/engagement" element={<Engagement />} />
         <Route path="/schedule" element={<Schedule />} />
+        <Route path="/hr" element={<HR />} />
       </Routes>
     </Router>
 

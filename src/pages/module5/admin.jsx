@@ -10,7 +10,7 @@ function Admin() {
   return (
     <div>
       <TopNav />
-      <Header />
+      <Header title="Software Engineering Department" /> {/* Pass the title prop here */}
       <div className="flex w-full" style={{ marginBottom: '20px' }}>
         <div className="w-2/5">
           <NewHireList />
