@@ -27,20 +27,10 @@ function App() {
         {/* General routes */}
         <Route path="/" element={<Login />} />
         <Route path="/forgotpwd" element={<ForgotPwd />} />
-
-            <Route path="/resource" element={<Resource />} />
-            <Route path="/training" element={<Training />} />
-
-            <Route path="/module3" element={<Module3 />} />
-            <Route path="/forum" element={<Forum />} />
-            <Route path="/faq" element={<Faq />} />
-
-            <Route path="/admin" element={<Admin />} />
-            
-          </Routes>
         {/* Module 1 routes */}
         {/* Module 2 routes */}
         <Route path="/resource" element={<Resource />} />
+        <Route path="/training" element={<Training />} />
         {/* Module 3 routes */}
         <Route path="/module3" element={<Module3 />} />
         <Route path="/forum" element={<Forum />} />
@@ -51,9 +41,9 @@ function App() {
         <Route path="/admin" element={<Admin />} />
         <Route path="/engagement" element={<Engagement />} />
         <Route path="/schedule" element={<Schedule />} />
+      </Routes>
+    </Router>
 
-      </Router>
-  
   );
 }
 
