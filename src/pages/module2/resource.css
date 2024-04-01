@@ -1,0 +1,64 @@
+/* App.css */
+
+/* Reset default margin and padding */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #0076CE;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+.header {
+  background-color: #0076CE;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Main content styles */
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+/* Text content styles */
+.text-content {
+  flex: 1;
+  padding-right: 20px;
+  color: #FFFFFF;
+  max-width: 600px; /* Set a maximum width for the text content */
+  margin: auto; /* Center the text content horizontally */
+  overflow: hidden; /* Hide any content that overflows */
+}
+
+.text-content h2 {
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 10px;
+  color: #FFFFFF;
+}
+
+.text-content p {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  color: #FFFFFF;
+}
+
+/* Image content styles */
+.image-content {
+  flex: 1;
+}
+
+.image-content img {
+  width: 100%;
+  height: auto;
+}
+
+  

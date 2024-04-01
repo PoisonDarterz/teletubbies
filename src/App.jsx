@@ -14,6 +14,7 @@ import Faq from "./pages/module3/FAQ"
 // Module 4 imports
 // Module 5 imports
 import Admin from "./pages/module5/admin"
+import Resource from "./pages/module2/resource"
 
 function App() {
   return (
@@ -27,6 +28,8 @@ function App() {
             <Route path="/faq" element={<Faq />} />
 
             <Route path="/admin" element={<Admin />} />
+            <Route path="/resource" element={<Resource />} />
+
           </Routes>
     </Router>
   );
