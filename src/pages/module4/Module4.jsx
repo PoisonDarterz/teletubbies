@@ -10,16 +10,16 @@ function Module4(){
                 <span className={styles.label} style={{ top: '280px', left: '330px' }}>Helpdesk</span>
             </Link>
             <Link to="/faq">
-                <img src="/Vector 16.png" alt="Monitor" style={{ position: 'absolute', top: '0px', left: '690px', width: '450px' }}/>
-                <span className={styles.label} style={{ top: '120px', left: '720px' }}>FAQ</span>
+                <img src="/Vector 16.png" alt="Monitor" style={{ position: 'absolute', top: '-5px', left: '693px', width: '445px' }}/>
+                <span className={styles.label} style={{ top: '120px', left: '500px' }}>Feedback</span>
             </Link>
             <Link to="/">
-                <img src="/Vector 17.png" alt="Clock" style={{ position: 'absolute', top: '100px', left: '1380px', width: '290px' }}/>
-                <span className={styles.label} style={{ top: '100px', left: '1670px' }}>Home</span>
+                <img src="/Vector 17.png" alt="Flower" style={{ position: 'absolute', top: '60px', left: '1160px', width: '175px' }}/>
+                <span className={styles.label} style={{ top: '100px', left: '1290px' }}>Goalsetting</span>
             </Link>
             <Link to="/">
-                <img src="/Vector 18.png" alt="Monitor" style={{ position: 'absolute', top: '588px', left: '770px', width: '295px' }}/>
-                <span className={styles.label} style={{ top: '450px', left: '790px' }}>Feedback and<br></br>Helpdesk</span>
+                <img src="/Vector 18.png" alt="CPU" style={{ position: 'absolute', top: '635px', left: '930px', width: '328px' }}/>
+                <span className={styles.label} style={{ top: '780px', left: '1300px' }}>Return to<br></br>main map</span>
             </Link>
         </div>
     );
