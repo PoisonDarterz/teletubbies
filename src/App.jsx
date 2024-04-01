@@ -7,7 +7,7 @@ import Login from "./pages/general/Login"
 import ForgotPwd from "./pages/general/ForgotPwd"
 // Module 1 imports
 // Module 2 imports
-import Resource from "./pages/module2/resource"
+import Resource from "./pages/module2/resource2"
 import Training from "./pages/module2/training"
 // Module 3 imports
 import Module3 from "./pages/module3/Module3"
