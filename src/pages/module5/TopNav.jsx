@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { BellIcon } from '@heroicons/react/solid'; // Import the bell icon from Heroicons
-import './Header.css'; // Assuming you have a CSS file for styles
 
 function TopNav() {
   return (
