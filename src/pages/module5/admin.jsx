@@ -11,14 +11,15 @@ function Admin() {
     <div>
       <TopNav />
       <Header />
-      <div className="flex">
-        <NewHireList />
-        <div className="flex-grow" />
-        <div className="w-1/2">
+      <div className="flex w-full">
+        <div className="w-2/5">
+          <NewHireList />
+        </div>
+        <div className="ml-auto mt-16 w-1/3 flex flex-col">
           <MyCalendar />
+          <PyChart />
         </div>
       </div>
-      <PyChart />
       <h1>Admin</h1>
       <Bottom /> {/* Use Bottom */}
     </div>
