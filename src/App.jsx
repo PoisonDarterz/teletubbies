@@ -9,6 +9,7 @@ import ForgotPwd from "./pages/general/ForgotPwd"
 // Module 2 imports
 import Resource from "./pages/module2/resource2"
 import Training from "./pages/module2/training"
+import Page from "./pages/module2/featured"
 // Module 3 imports
 import Module3 from "./pages/module3/Module3"
 import Forum from "./pages/module3/Forum"
@@ -31,6 +32,7 @@ function App() {
         {/* Module 2 routes */}
         <Route path="/resource" element={<Resource />} />
         <Route path="/training" element={<Training />} />
+        <Route path="/featured" element={<Page />} />
         {/* Module 3 routes */}
         <Route path="/module3" element={<Module3 />} />
         <Route path="/forum" element={<Forum />} />

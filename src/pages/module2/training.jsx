@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './header';
+import { Link } from 'react-router-dom'
 
 function Training() {
   return (
@@ -8,7 +9,9 @@ function Training() {
       </header>
       <Header/>
       <div className="buttons-container mt-0 ml-4 flex">
+        <Link to="/featured">
       <button className="button mr-2" style={{ backgroundColor: '#F6F1F1', width: '179px', height: '60px' }}>Featured</button>
+      </Link>
       <button className="button" style={{ backgroundColor: '#F6F1F1', width: '179px', height: '60px' }}>Sample Project</button>
       </div>
       <div className="content text-center mt-48">
