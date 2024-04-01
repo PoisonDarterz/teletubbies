@@ -24,6 +24,9 @@ function MyCalendar() {
             }
           }}
         />
+        <button style={{ backgroundColor: '#BADEE6', color: '#292F65', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '10px', marginTop: '10px' }}>
+        Check your calendar <span style={{ marginLeft: '10px', color: '#146c94' }}>→</span>
+      </button>
       </div>
     );
   }
