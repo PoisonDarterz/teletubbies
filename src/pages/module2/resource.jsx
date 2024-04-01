@@ -19,36 +19,20 @@ function Resource() {
   };
 
   return (
-    <div>
-      <div className="body-content">
-        <div className="Resource">
-          <header className="header">
-            <h1>Training Resources Hub</h1>
-          </header>
-          <Header/>
-          <main className="main-content">
-            <div className="text-content">
-              <h2>Training Resources Hub</h2>
-              <p>
-                Explore our Learning Center! Access vital training materials and documents 
-                to kickstart your journey with us. 
-                Everything you need to excel in your role, all in one place.
-              </p>
-            </div>
-            <div className="image-content">
-              <img src="/module2Photo.jpg" alt="Training Resources" />
-            </div>
-          </main>
+    <div className="flex flex-col h-screen bg-[#0076CE] text-white">
+      <header className="p-5">
+        <h1 className="text-4xl">Training Resources Hub</h1>
+      </header>
+      <Header/>
+      <main className="flex flex-grow p-5 space-x-5">
+        <div className="flex-1 space-y-5 max-w-xl mx-auto overflow-hidden">
+          <h2 className="text-4xl font-semibold">Explore our Learning Center!</h2>
+          <p className="text-lg">
+            Access vital training materials and documents to kickstart your journey with us. Everything you need to excel in your role, all in one place.
+          </p>
         </div>
-      </div>
-  
-      <div className="images-container">
-        <div className="image-wrapper">
-          <img src="/Developmentguide.jpg" alt="Developer Guide" />
-          <div className="image-overlay">
-            <p>Developer Guide</p>
-          </div>
-          <button onClick={() => handleDownload("Developmentguide")}>Download</button>
+        <div className="image-content">
+          <img src="/module2Photo.jpg" alt="Training Resources" />
         </div>
         <div className="image-wrapper">
           <img src="/Developmentstandard.jpg" alt="Development Standard" />
@@ -64,10 +48,10 @@ function Resource() {
           </div>
           <button onClick={() => handleDownload("Trainingagenda")}>Download</button>
         </div>
-      </div>
+      </main>
     </div>
-  );  
-}
+  );
+  }  
 
 export default Resource;
 
