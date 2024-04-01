@@ -7,30 +7,37 @@ import Login from "./pages/general/Login"
 import ForgotPwd from "./pages/general/ForgotPwd"
 // Module 1 imports
 // Module 2 imports
+import Resource from "./pages/module2/resource"
 // Module 3 imports
 import Module3 from "./pages/module3/Module3"
 import Forum from "./pages/module3/Forum"
 import Faq from "./pages/module3/FAQ"
 // Module 4 imports
+import Module4 from "./pages/module4/Module4"
 // Module 5 imports
 import Admin from "./pages/module5/admin"
-import Resource from "./pages/module2/resource"
 
 function App() {
   return (
     <Router>
-          <Routes>
-            <Route path="/" element={<Login />} />
-            <Route path="/forgotpwd" element={<ForgotPwd />} />
+      <Routes>
+        {/* General routes */}
+        <Route path="/" element={<Login />} />
+        <Route path="/forgotpwd" element={<ForgotPwd />} />
 
-            <Route path="/module3" element={<Module3 />} />
-            <Route path="/forum" element={<Forum />} />
-            <Route path="/faq" element={<Faq />} />
+        {/* Module 1 routes */}
+        {/* Module 2 routes */}
+        <Route path="/resource" element={<Resource />} />
+        {/* Module 3 routes */}
+        <Route path="/module3" element={<Module3 />} />
+        <Route path="/forum" element={<Forum />} />
+        <Route path="/faq" element={<Faq />} />
+        {/* Module 4 routes */}
+        <Route path="/module4" element={<Module4 />} />
+        {/* Module 5 routes */}
+        <Route path="/admin" element={<Admin />} />
 
-            <Route path="/admin" element={<Admin />} />
-            <Route path="/resource" element={<Resource />} />
-
-          </Routes>
+      </Routes>
     </Router>
   );
 }

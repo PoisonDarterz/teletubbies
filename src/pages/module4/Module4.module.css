@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Jeju Hallasan';
+    src: url('../../../public/JejuHallasan-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    background: #fff;
+}
+
+.background {
+    background-image: url('../../../public/module4bg.png');
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+    background-attachment: scroll;
+    min-height: 1080px;
+    min-width: 1920px;
+}
+
+.label {
+    position: absolute;
+    color: #FFFCB1;
+    font-family: 'Jeju Hallasan', sans-serif;
+    font-size: 40px;
+}
