@@ -11,14 +11,12 @@ function Schedule() {
     <div>
       <TopNav />
       <Header2 />
-      <div className="calendar-container" style={{ display: 'flex', justifyContent: 'space-between' }}>
-        <div style={{ width: '50%', marginRight: '20px' }}> {/* Adjust the width here */}
+      <div className="calendar-container" style={{ display: 'flex' }}>
+        <div style={{ marginLeft: '20px', marginRight: '50px' }}> {/* Adjust the margins here */}
           <MyCalendar showButton={false} />
           <Button />
         </div>
-        <div style={{ width: '30%' }}>
-          <Word />
-        </div>
+        <Word />
       </div>
       <Bottom />
       {/* rest of your code */}
