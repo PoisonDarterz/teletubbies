@@ -4,6 +4,7 @@ import TopNav from './TopNav';
 import NewHireList from './newhirelist';
 import MyCalendar from './calendar';
 import PyChart from './pychart';
+import Bottom from './bottom';
 
 function Admin() {
   return (
@@ -19,6 +20,7 @@ function Admin() {
       </div>
       <PyChart />
       <h1>Admin</h1>
+      <Bottom /> {/* Use Bottom */}
     </div>
   );
 }
