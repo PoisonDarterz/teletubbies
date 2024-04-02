@@ -7,6 +7,8 @@ import Login from "./pages/general/Login"
 import ForgotPwd from "./pages/general/ForgotPwd"
 // Module 1 imports
 import Module1 from "./pages/module1/Module1"
+import VRTour from "./pages/module1/VRTour"
+import GeneralInfo from "./pages/module1/GeneralInfo"
 
 // Module 2 imports
 import Resource from "./pages/module2/resource2"
@@ -33,7 +35,8 @@ function App() {
         <Route path="/forgotpwd" element={<ForgotPwd />} />
         {/* Module 1 routes */}
         <Route path="/Module1" element={<Module1 />} />
-
+        <Route path="/vrtour" element={<VRTour />} />
+        <Route path="/generalinfo" element={<GeneralInfo />} />
         {/* Module 2 routes */}
         <Route path="/resource" element={<Resource />} />
         <Route path="/training" element={<Training />} />
