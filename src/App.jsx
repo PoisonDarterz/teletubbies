@@ -22,6 +22,8 @@ import Admin from "./pages/module5/admin"
 import Engagement from "./pages/module5/engagement";
 import Schedule from "./pages/module5/schedule";
 import HR from "./pages/module5/hr";
+import Email from "./pages/module5/email";
+import Assign from "./pages/module5/assign";
 
 
 function App() {
@@ -48,6 +50,9 @@ function App() {
         <Route path="/engagement" element={<Engagement />} />
         <Route path="/schedule" element={<Schedule />} />
         <Route path="/hr" element={<HR />} />
+        <Route path="/email" element={<Email />} />
+        <Route path="/assign" element={<Assign />} />
+
       </Routes>
     </Router>
 

@@ -1,18 +1,10 @@
 import React from 'react';
 
-function ProgressBar() {
-  const hires = [
-    { name: 'Henry Tan Yin Yi', image: '/Ellipse 51.png' },
-    { name: 'Ali bin Muhammad Hassan', image: '/Ellipse 53.png' },
-    { name: 'Samuel Chan', image: '/Ellipse 52.png' },
-    { name: 'Jennie Liew Mei Yin', image: '/Ellipse 54.png' },
-    { name: 'Kugan a/l Krishnan', image: '/Ellipse 55.png' },
-  ];
-
+function ProgressBar({ hires }) {
   return (
     <table className="table-auto w-full mt-4">
       <tbody>
-        {hires.map((hire, i) => (
+        {hires && hires.map((hire, i) => (
           <tr key={i} className="border-b border-gray-200">
             <td className="p-2 flex items-center">
               <img src={hire.image} alt="Profile" className="w-12 h-12 rounded-full" />
