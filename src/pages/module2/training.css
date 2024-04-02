@@ -1,43 +1,38 @@
 .buttons-container {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-  }
-  
-  .button {
-    width: 179px;
-    height: 60px;
-    background-color: #F6F1F1;
-    color: black;
-    font-size: 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
+  display: flex;
+  justify-content: flex-start;
+  position: absolute;
+  left: 20px; /* Adjust as needed */
+}
+
+.button {
+  width: 179px;
+  height: 60px;
+  background-color: #F6F1F1;
+  color: black;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
   .content {
     text-align: center;
-    margin-top: 50px;
+    margin-top:300px;
   }
   
   .title {
     font-family: 'Poppins', sans-serif;
     font-size: 60px;
     color: black;
-    position: absolute;
-    top: 400px; /* Adjust as needed */
-    left: 250px; /* Adjust as needed */
   }
   
   .description {
     font-family: 'Poppins', sans-serif;
     font-size: 25px;
     color: black;
-    position: absolute;
-    top: 480px; /* Adjust as needed */
-    left: 250px; /* Align with the title */
   }
-  
   
   .highlight {
     color: #146C94;
