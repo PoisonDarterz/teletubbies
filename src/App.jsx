@@ -11,6 +11,7 @@ import VRTour from "./pages/module1/VRTour"
 import GeneralInfo from "./pages/module1/GeneralInfo"
 import Station2 from "./pages/module1/station2"
 import Submission from "./pages/module1/Submission"
+import ProfilePage from "./pages/module1/profile";
 // Module 2 imports
 import Resource from "./pages/module2/resource2"
 import Training from "./pages/module2/training"
@@ -22,6 +23,8 @@ import Forum from "./pages/module3/Forum"
 import Faq from "./pages/module3/FAQ"
 // Module 4 imports
 import Module4 from "./pages/module4/Module4"
+import Feedback from "./pages/module4/feedback"
+import HelpDesk from "./pages/module4/helpdesk";
 // Module 5 imports
 import Admin from "./pages/module5/admin"
 import Engagement from "./pages/module5/engagement";
@@ -44,6 +47,7 @@ function App() {
         <Route path="/generalinfo" element={<GeneralInfo />} />
         <Route path="/station2" element={<Station2 />} />
         <Route path="/Submission" element={<Submission />} />
+        <Route path="/profile" element={<ProfilePage />} />
         {/* Module 2 routes */}
         <Route path="/resource" element={<Resource />} />
         <Route path="/training" element={<Training />} />
@@ -55,6 +59,8 @@ function App() {
         <Route path="/faq" element={<Faq />} />
         {/* Module 4 routes */}
         <Route path="/module4" element={<Module4 />} />
+        <Route path="/feedback" element={<Feedback />} />
+        <Route path="/helpdesk" element={<HelpDesk />} />
         {/* Module 5 routes */}
         <Route path="/admin" element={<Admin />} />
         <Route path="/engagement" element={<Engagement />} />
