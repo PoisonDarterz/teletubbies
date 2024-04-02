@@ -2,6 +2,8 @@ import React from 'react';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 import './NewHireList.css'; 
+import { Link } from 'react-router-dom';
+
 
 function MyCalendar() {
     return (
@@ -24,6 +26,9 @@ function MyCalendar() {
             }
           }}
         />
+        <Link to="/schedule" style={{ backgroundColor: '#BADEE6', color: '#292F65', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '10px', marginTop: '10px', textDecoration: 'none' }}>
+        Check your calendar <span style={{ marginLeft: '10px', color: '#146c94' }}>→</span>
+      </Link>
       </div>
     );
   }

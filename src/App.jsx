@@ -6,11 +6,11 @@ import './tailwind.css';
 import Login from "./pages/general/Login"
 import ForgotPwd from "./pages/general/ForgotPwd"
 // Module 1 imports
-import Module1 from "./pages/module1/Landingpage"
-import VRScene from "./pages/module1/VRScene" // Make sure the path is correct
+import Module1 from "./pages/module1/Module1"
 
 // Module 2 imports
-import Resource from "./pages/module2/resource"
+import Resource from "./pages/module2/resource2"
+import Training from "./pages/module2/training"
 // Module 3 imports
 import Module3 from "./pages/module3/Module3"
 import Forum from "./pages/module3/Forum"
@@ -19,6 +19,10 @@ import Faq from "./pages/module3/FAQ"
 import Module4 from "./pages/module4/Module4"
 // Module 5 imports
 import Admin from "./pages/module5/admin"
+import Engagement from "./pages/module5/engagement";
+import Schedule from "./pages/module5/schedule";
+import HR from "./pages/module5/hr";
+
 
 function App() {
   return (
@@ -27,13 +31,12 @@ function App() {
         {/* General routes */}
         <Route path="/" element={<Login />} />
         <Route path="/forgotpwd" element={<ForgotPwd />} />
-
         {/* Module 1 routes */}
-        <Route path="/module1" element={<Module1 />} />
-        <Route path="/VRScene" element={<VRScene />} />
+        <Route path="/Module1" element={<Module1 />} />
 
         {/* Module 2 routes */}
         <Route path="/resource" element={<Resource />} />
+        <Route path="/training" element={<Training />} />
         {/* Module 3 routes */}
         <Route path="/module3" element={<Module3 />} />
         <Route path="/forum" element={<Forum />} />
@@ -42,9 +45,12 @@ function App() {
         <Route path="/module4" element={<Module4 />} />
         {/* Module 5 routes */}
         <Route path="/admin" element={<Admin />} />
-
+        <Route path="/engagement" element={<Engagement />} />
+        <Route path="/schedule" element={<Schedule />} />
+        <Route path="/hr" element={<HR />} />
       </Routes>
     </Router>
+
   );
 }
 
