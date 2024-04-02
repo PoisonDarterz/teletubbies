@@ -5,7 +5,7 @@ import styles from './Module1.module.css';
 function Module1(){
     return (
         <div className={styles.background} >
-            <Link to="/">
+            <Link to="/VRTour">
                 <img src="/officeTour_vector.png" alt="Lamp" style={{ position: 'absolute', top: '160px', left: '580px', width: '400px' }}/>
                 {/* <span className={styles.label} style={{ top: '860px', left: '900px', color:'#000' }}>Office<br></br>Tour</span> */}
             </Link>
