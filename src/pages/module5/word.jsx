@@ -2,8 +2,10 @@ import React from 'react';
 
 function Word() {
   return (
-    <div className="bg-blue-100 p-16 w-1/3 ml-auto mr-auto rounded-lg"> {/* Adjust the width here */}
-      <p className="text-blue-900 font-bold text-center">09/04/2024</p>
+    <div className="bg-blue-100 p-16 w-1/3 ml-auto mr-auto rounded-lg" style={{ height: '360px', marginTop: '110px' }}>
+      <p className="text-blue-900 font-bold text-center" style={{ marginTop: '5px' }}> 
+        09/04/2024
+      </p>
       <p className="flex items-center"><span className="bg-green-100 text-red-500 mr-2 p-1">*</span>9.00am - 10.00am   Onboarding briefing (zoom)</p>
       <p className="mb-5">2.00pm - 4.00pm     Training on Job-specific Tasks and Processes</p>
       <p className="font-bold">Upcoming Events:</p>
