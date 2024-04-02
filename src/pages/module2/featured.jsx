@@ -42,9 +42,11 @@ function Box({ title, description, imageSrc }) {
         <Link to="/featured">
       <button className="button mr-2" style={{ backgroundColor: '#F6F1F1', width: '179px', height: '60px' }}>Featured</button>
       </Link>
-      <button className="button" style={{ backgroundColor: '#F6F1F1', width: '179px', height: '60px' }}>Sample Project</button>
+      <Link to="/sampleproject">
+      <button className="button mr-2" style={{ backgroundColor: 'rgba(246, 241, 241, 0.27)', width: '179px', height: '60px' }}>Sample Project</button>
+      </Link>
       </div>
-          <div className="bg-F6F1F1 p-8">
+      <div className="bg-[#F6F1F1] p-8">
             <div className="flex flex-wrap -mx-4">
               {renderBoxes()}
             </div>

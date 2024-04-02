@@ -12,7 +12,9 @@ function Training() {
         <Link to="/featured">
       <button className="button mr-2" style={{ backgroundColor: '#F6F1F1', width: '179px', height: '60px' }}>Featured</button>
       </Link>
+      <Link to="/sampleproject">
       <button className="button" style={{ backgroundColor: '#F6F1F1', width: '179px', height: '60px' }}>Sample Project</button>
+      </Link>
       </div>
       <div className="content text-center mt-48">
       <div className="title font-poppins text-[60px] text-black">Software Engineering Training Hub</div>
@@ -24,5 +26,6 @@ function Training() {
 </div>
   );
 }
+
 
 export default Training;
