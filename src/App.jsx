@@ -6,7 +6,8 @@ import './tailwind.css';
 import Login from "./pages/general/Login"
 import ForgotPwd from "./pages/general/ForgotPwd"
 // Module 1 imports
-import VRScene from './pages/module1/VRScene'; // Make sure the path is correct
+import Module1 from "./pages/module1/Landingpage"
+import VRScene from "./pages/module1/VRScene" // Make sure the path is correct
 
 // Module 2 imports
 import Resource from "./pages/module2/resource"
@@ -28,6 +29,7 @@ function App() {
         <Route path="/forgotpwd" element={<ForgotPwd />} />
 
         {/* Module 1 routes */}
+        <Route path="/module1" element={<Module1 />} />
         <Route path="/VRScene" element={<VRScene />} />
 
         {/* Module 2 routes */}
