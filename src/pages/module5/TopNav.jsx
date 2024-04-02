@@ -10,9 +10,9 @@ function TopNav() {
           <h2 className="text-white text-sm">Onboarding</h2> 
         </div>
         <div className="space-x-6 flex justify-center flex-grow">
-          <Link to="/" className="text-white">Forum</Link>
-          <Link to="/" className="text-white">FAQ</Link>
-          <Link to="/" className="text-white">Scheduling</Link>
+          <Link to="/forum" className="text-white">Forum</Link>
+          <Link to="/faq" className="text-white">FAQ</Link>
+          <Link to="/scheduling" className="text-white">Scheduling</Link>
           <Link to="/" className="text-white">Helpdesk</Link> 
         </div>
         <div className="flex items-center space-x-4">
