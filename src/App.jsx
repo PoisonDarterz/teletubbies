@@ -23,6 +23,7 @@ import Faq from "./pages/module3/FAQ"
 // Module 4 imports
 import Module4 from "./pages/module4/Module4"
 import Feedback from "./pages/module4/feedback"
+import HelpDesk from "./pages/module4/helpdesk";
 // Module 5 imports
 import Admin from "./pages/module5/admin"
 import Engagement from "./pages/module5/engagement";
@@ -56,6 +57,7 @@ function App() {
         {/* Module 4 routes */}
         <Route path="/module4" element={<Module4 />} />
         <Route path="/feedback" element={<Feedback />} />
+        <Route path="/helpdesk" element={<HelpDesk />} />
         {/* Module 5 routes */}
         <Route path="/admin" element={<Admin />} />
         <Route path="/engagement" element={<Engagement />} />

@@ -6,7 +6,7 @@ function Module4(){
     return (
         <div className={styles.background} >
             <Link to="/forum">
-                <img src="/Vector 15.png" alt="Coffee" style={{ position: 'absolute', top: '270px', left: '393px', width: '235px' }}/>
+                <img src="/helpdesk" alt="Coffee" style={{ position: 'absolute', top: '270px', left: '393px', width: '235px' }}/>
                 <span className={styles.label} style={{ top: '280px', left: '330px' }}>Helpdesk</span>
             </Link>
             <Link to="/feedback">
