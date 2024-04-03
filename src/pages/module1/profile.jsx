@@ -1,10 +1,10 @@
 import React from 'react';
-import TopNav from '../module3/TopNav';
+import Header from './headerM1';
 
 function ProfilePage() {
     return (
         <>
-            <TopNav />
+            <Header />
             <div className="flex">
                 <div className="w-1/3 p-4 mt-12 ml-8">
                     <img className="rounded-full w-60 h-60 mx-auto" src="/Rectangle 90.png" alt="Profile" />
