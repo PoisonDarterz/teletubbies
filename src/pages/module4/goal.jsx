@@ -1,5 +1,5 @@
 import React from 'react';
-import TopNav from '../module3/TopNav'; // replace '../module3/TopNav' with the correct path to TopNav
+import TopNav from './TopNav'; // replace '../module3/TopNav' with the correct path to TopNav
 
 function Goal() {
     return (
