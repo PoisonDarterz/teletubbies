@@ -12,6 +12,7 @@ import GeneralInfo from "./pages/module1/GeneralInfo"
 import Station2 from "./pages/module1/station2"
 import Submission from "./pages/module1/Submission"
 import ProfilePage from "./pages/module1/profile";
+import WelcomePackage from "./pages/module1/WelcomePackage";
 // Module 2 imports
 import Resource from "./pages/module2/resource2"
 import Training from "./pages/module2/training"
@@ -51,6 +52,7 @@ function App() {
         <Route path="/station2" element={<Station2 />} />
         <Route path="/Submission" element={<Submission />} />
         <Route path="/profile" element={<ProfilePage />} />
+        <Route path="/welcomepackage" element={<WelcomePackage />} />
         {/* Module 2 routes */}
         <Route path="/module2" element={<Module2 />} />
         <Route path="/resource" element={<Resource />} />
