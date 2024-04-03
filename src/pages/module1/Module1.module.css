@@ -14,10 +14,10 @@ body, html {
 .background {
     background-image: url('../../../public/module1_st1.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 1920px 1080px;
     background-attachment: scroll;
-    min-height: 100vh;
-    min-width: 100vw;
+    min-height: 1080px;
+    min-width: 1920px;
 }
 
 .label {

@@ -14,7 +14,7 @@ function TopNav() {
         <Link to="/scheduling" className="text-white">Scheduling</Link>
       </div>
       <div className="flex items-center space-x-4">
-        <div className="w-8 h-8 bg-white rounded-full"></div> {/* This is the profile icon. Replace it with your own icon. */}
+      <img src="SamuelChan.jpg" alt="Profile" className="w-8 h-8 bg-white rounded-full" />
         <Link to="/station4" className="text-white">Map</Link>
       </div>
     </nav>
