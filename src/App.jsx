@@ -37,7 +37,9 @@ import HR from "./pages/module5/hr";
 import Email from "./pages/module5/email";
 import Assign from "./pages/module5/assign";
 import Popup from "./pages/module5/popup";
-
+import ForumAdmin from "./pages/module5/ForumAdmin";
+import FAQAdmin from "./pages/module5/FAQAdmin";
+import HelpdeskAdmin from "./pages/module5/HelpdeskAdmin";
 
 function App() {
 
@@ -80,9 +82,10 @@ function App() {
         <Route path="/email" element={<Email />} />
         <Route path="/assign" element={<Assign />} />
         <Route path="/popup" element={<Popup />} />
-
-
-      </Routes>
+        <Route path="/forumadmin" element={<ForumAdmin />} />
+        <Route path="/faqadmin" element={<FAQAdmin />} />
+        <Route path="/helpdeskadmin" element={<HelpdeskAdmin />} />
+       </Routes>
     </Router>
 
   );
