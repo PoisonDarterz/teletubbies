@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import TopNav from '../module3/TopNav';
+import TopNav from './TopNav';
 
 function HelpDesk() {
   const [selectedSeverity1, setSelectedSeverity1] = useState(0);
