@@ -16,7 +16,6 @@ const Maze = () => {
 
     return (
         <div>
-            <h1 className="text-4xl font-bold text-white mb-4">Welcome, New Hire</h1>
             <MazeApp />
             {showModal && (
                 <div className="fixed z-10 inset-0 overflow-y-auto" aria-labelledby="modal-title" role="dialog" aria-modal="true">

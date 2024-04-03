@@ -125,24 +125,24 @@ return (
       return (
         isOnSpecificCell && maze[playerPos.y][playerPos.x] === stationNumber && (
           <Link 
-            to={`/station${stationNumber}-1`} 
-            style={{
-              display: 'inline-block',
-              backgroundColor: '#4CAF50', /* Green background */
-              color: 'white', /* White text */
-              padding: '14px 20px',
-              margin: '8px 0',
-              border: 'none',
-              borderRadius: '4px',
-              cursor: 'pointer',
-              textDecoration: 'none', /* Remove underline */
-              fontSize: '16px',
-              transitionDuration: '0.4s',
-              textAlign: 'center'
-            }}
-            onMouseOver={(e) => e.target.style.backgroundColor = "#45a049"} /* Darker green when mouse hovers over */
-            onMouseOut={(e) => e.target.style.backgroundColor = "#4CAF50"} /* Return to original color when mouse is not hovering over */
-          >
+    to={`/station${stationNumber - 1}`} // Subtract 1 from stationNumber
+    style={{
+        display: 'inline-block',
+        backgroundColor: '#4CAF50', /* Green background */
+        color: 'white', /* White text */
+        padding: '14px 20px',
+        margin: '8px 0',
+        border: 'none',
+        borderRadius: '4px',
+        cursor: 'pointer',
+        textDecoration: 'none', /* Remove underline */
+        fontSize: '16px',
+        transitionDuration: '0.4s',
+        textAlign: 'center'
+    }}
+    onMouseOver={(e) => e.target.style.backgroundColor = "#45a049"} /* Darker green when mouse hovers over */
+    onMouseOut={(e) => e.target.style.backgroundColor = "#4CAF50"} /* Return to original color when mouse is not hovering over */
+>
             Redirect
           </Link>
         )
