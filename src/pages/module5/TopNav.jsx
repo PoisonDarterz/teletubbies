@@ -13,7 +13,7 @@ function TopNav() {
           <Link to="/forumadmin" className="text-white">Forum</Link>
           <Link to="/faqadmin" className="text-white">FAQ</Link>
           <Link to="/scheduling" className="text-white">Scheduling</Link>
-          <Link to="/" className="text-white">Helpdesk</Link> 
+          <Link to="/helpdeskadmin" className="text-white">Helpdesk</Link> 
         </div>
         <div className="flex items-center space-x-4">
           <BellIcon className="w-8 h-8 text-white" /> 
