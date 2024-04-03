@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import TopNav from '../module3/TopNav'; // Adjust the path as necessary
+import TopNav from './TopNav'; // Adjust the path as necessary
 
 function Feedback() {
   const [rating, setRating] = useState(0);
