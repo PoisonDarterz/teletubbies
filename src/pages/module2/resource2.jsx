@@ -31,7 +31,7 @@ function Resource2() {
           </p>
         </div>
         <div className="flex-1">
-          <img src="/module2Photo.jpg" alt="Training Resources" className="ml-auto" style={{ height: '500px', width: '500px' }} />
+          <img src="/module2Photo.jpg" alt="Training Resources" className="ml-auto" style={{ height: '500px', width: '400px' }} />
         </div>
       </main>
       <div className="images-container flex w-full h-[400px]" style={{ backgroundColor: '#F6F1F1', zIndex: 1 }}>
@@ -42,7 +42,7 @@ function Resource2() {
               <p>Developer Guide</p>
             </div>
           </div>
-          <button onClick={() => handleDownload("Developmentguide")} className="font-bold underline">Download</button>
+          <button onClick={() => handleDownload("Development guide")} className="font-bold underline">Download</button>
         </div>
         <div className="image-wrapper flex-1 relative flex flex-col items-center justify-center">
           <div className="relative">
@@ -51,7 +51,7 @@ function Resource2() {
               <p>Development Standard</p>
             </div>
           </div>
-          <button onClick={() => handleDownload("Developmentstandard")} className="font-bold underline">Download</button>
+          <button onClick={() => handleDownload("Development standard")} className="font-bold underline">Download</button>
         </div>
         <div className="image-wrapper flex-1 relative flex flex-col items-center justify-center">
           <div className="relative">
@@ -60,7 +60,7 @@ function Resource2() {
               <p>Training Agenda</p>
             </div>
           </div>
-          <button onClick={() => handleDownload("Trainingagenda")} className="font-bold underline">Download</button>
+          <button onClick={() => handleDownload("Training agenda")} className="font-bold underline">Download</button>
         </div>
       </div>
     </div>
