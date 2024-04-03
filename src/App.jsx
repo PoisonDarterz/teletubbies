@@ -20,6 +20,7 @@ import Page from "./pages/module2/featured"
 import SampleProject from "./pages/module2/sampleproject";
 import Target from "./pages/module2/target";
 import Module2 from "./pages/module2/module2";
+import Testing from "./pages/module2/testing";
 // Module 3 imports
 import Module3 from "./pages/module3/Module3"
 import Forum from "./pages/module3/Forum"
@@ -61,6 +62,7 @@ function App() {
         <Route path="/featured" element={<Page />} />
         <Route path="/sampleproject" element={<SampleProject />} />
         <Route path="/target" element={<Target />} />
+        <Route path="/testing" element={<Testing />} />
         {/* Module 3 routes */}
         <Route path="/station4" element={<Module3 />} />
         <Route path="/forum" element={<Forum />} />
