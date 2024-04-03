@@ -18,7 +18,7 @@ function Stage({ title, tasks, boxColor, progressBarColor, subtitle }) {
   return (
     <div style={{ backgroundColor: boxColor, borderRadius: '8px', padding: '20px', margin: '20px' }}>
       <h2 style={{ fontWeight: '600', textDecoration: 'underline' }}>{title}</h2>
-      <p>{subtitle}</p>
+      <p style={{ fontWeight: 600 }}>{subtitle}</p>
       {tasks.map(task => (
         <div key={task}>
           <input type="checkbox" id={task} name={task} onChange={() => handleTaskChange(task)} style={{ marginRight: '10px' }} />
@@ -28,6 +28,7 @@ function Stage({ title, tasks, boxColor, progressBarColor, subtitle }) {
       <div style={{ backgroundColor: '#D3D3D3', borderRadius: '21px', height: '20px', marginTop: '20px' }}>
         <div style={{ width: `${progress}%`, height: '100%', backgroundColor: progressBarColor, borderRadius: '21px' }} />
       </div>
+      <p style={{ color: progress > 50 ? '#0C8142' : '#D96767' }}>{progress.toFixed(0)}%</p>
     </div>
   );
 }
