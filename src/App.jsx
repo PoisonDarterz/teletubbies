@@ -18,6 +18,7 @@ import Resource from "./pages/module2/resource2"
 import Training from "./pages/module2/training"
 import Page from "./pages/module2/featured"
 import SampleProject from "./pages/module2/sampleproject";
+import Module2 from "./pages/module2/module2";
 // Module 3 imports
 import Module3 from "./pages/module3/Module3"
 import Forum from "./pages/module3/Forum"
@@ -37,6 +38,7 @@ import Assign from "./pages/module5/assign";
 
 
 function App() {
+
   return (
     <Router>
       <Routes>
@@ -51,18 +53,18 @@ function App() {
         <Route path="/Submission" element={<Submission />} />
         <Route path="/profile" element={<ProfilePage />} />
         <Route path="/account" element={<Account />} />
-       
         {/* Module 2 routes */}
+        <Route path="/station3" element={<Module2 />} />
         <Route path="/resource" element={<Resource />} />
         <Route path="/training" element={<Training />} />
         <Route path="/featured" element={<Page />} />
         <Route path="/sampleproject" element={<SampleProject />} />
         {/* Module 3 routes */}
-        <Route path="/module3" element={<Module3 />} />
+        <Route path="/station4" element={<Module3 />} />
         <Route path="/forum" element={<Forum />} />
         <Route path="/faq" element={<Faq />} />
         {/* Module 4 routes */}
-        <Route path="/module4" element={<Module4 />} />
+        <Route path="/station5" element={<Module4 />} />
         <Route path="/feedback" element={<Feedback />} />
         <Route path="/helpdesk" element={<HelpDesk />} />
         <Route path="/goal" element={<Goal />} />

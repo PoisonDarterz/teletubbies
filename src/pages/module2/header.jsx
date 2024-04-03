@@ -12,7 +12,7 @@ function Header() {
       </div>
       <div className="flex items-center space-x-4">
         <div className="w-8 h-8 bg-white rounded-full"></div> {/* This is the profile icon. Replace it with your own icon. */}
-        <Link to="/map" className="text-white">Map</Link>
+        <Link to="/station3" className="text-white">Map</Link>
       </div>
     </nav>
   );
