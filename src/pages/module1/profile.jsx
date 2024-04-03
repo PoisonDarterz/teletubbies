@@ -2,6 +2,7 @@ import React, { useState, useRef } from 'react';
 import Header from './headerM1';
 import { extractDataFromPdf } from './process-pdf';
 
+
 function ProfilePage() {
     const [file, setFile] = useState(null);
     const [profileData, setProfileData] = useState({

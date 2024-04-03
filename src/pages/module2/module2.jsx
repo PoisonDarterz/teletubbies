@@ -17,7 +17,7 @@ function Module2(){
                 <img src="/Vector 5.png" alt="Monitor" style={{ position: 'absolute', top: '430px', left: '1060px', width: '430px' }}/>
                 <span className={styles.label} style={{ top: '530px', left: '1490px' }}>Training<br></br>Session</span>
             </Link>
-            <Link to="/maze">
+            <Link to="/Maze">
                 <img src="/Vector 138.png" alt="Map" style={{ position: 'absolute', top: '20px', left: '815px', width: '330px' }}/>
                 <span className={styles.label} style={{ top: '50px', left: '1170px' }}>Return to<br></br>main map</span>
             </Link>
