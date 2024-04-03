@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './headerM1';
+import Header from './headerM2';
 
 function Box({ title, description, imageSrc }) {
     return (
