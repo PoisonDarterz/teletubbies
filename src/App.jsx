@@ -5,8 +5,7 @@ import './tailwind.css';
 // General module imports
 import Login from "./pages/general/Login"
 import ForgotPwd from "./pages/general/ForgotPwd"
-// import MazeApp from "./pages/general/MazeApp"
-import SimpleMaze from "./pages/general/simpleMaze"
+import Maze from "./pages/general/Maze"
 
 
 // Module 1 imports
@@ -17,6 +16,8 @@ import Station2 from "./pages/module1/station2"
 import Submission from "./pages/module1/Submission"
 import ProfilePage from "./pages/module1/profile";
 import Account from "./pages/module1/account";
+import VideoComponent from "./pages/module1/video";
+
 // Module 2 imports
 import Resource from "./pages/module2/resource2"
 import Training from "./pages/module2/training"
@@ -46,10 +47,10 @@ function App() {
         {/* General routes */}
         <Route path="/" element={<Login />} />
         <Route path="/forgotpwd" element={<ForgotPwd />} />
-        {/* <Route path="/MazeApp" element={<MazeApp />} /> */}
-        <Route path="/simpleMaze" element={<SimpleMaze />} />
+        <Route path="/Maze" element={<Maze />} />
+        <Route path="/VideoComponent" element={<VideoComponent />} />
         {/* Module 1 routes */}
-        <Route path="/Module1" element={<Module1 />} />
+        <Route path="/station1" element={<Module1 />} />
         <Route path="/vrtour" element={<VRTour />} />
         <Route path="/generalinfo" element={<GeneralInfo />} />
         <Route path="/station2" element={<Station2 />} />
@@ -63,7 +64,7 @@ function App() {
         <Route path="/featured" element={<Page />} />
         <Route path="/sampleproject" element={<SampleProject />} />
         {/* Module 3 routes */}
-        <Route path="/module3" element={<Module3 />} />
+        <Route path="/station4" element={<Module3 />} />
         <Route path="/forum" element={<Forum />} />
         <Route path="/faq" element={<Faq />} />
         {/* Module 4 routes */}

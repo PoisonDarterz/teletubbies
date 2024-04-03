@@ -9,7 +9,7 @@ function VRTour() {
     document.body.appendChild(script1);
 
     const initializePanolens = () => {
-      const panoramaImage = new window.PANOLENS.ImagePanorama('/scenery.jpeg');
+      const panoramaImage = new window.PANOLENS.ImagePanorama('/dell.jpeg');
       const viewer = new window.PANOLENS.Viewer({
         container: imageContainerRef.current,
         autoRotate: true,
@@ -29,7 +29,6 @@ function VRTour() {
 
   return (
     <div className="main-container">
-      <h1>Hi, Welcome</h1>
       <div ref={imageContainerRef} className="image-container"></div>
     </div>
   );
