@@ -5,6 +5,10 @@ import './tailwind.css';
 // General module imports
 import Login from "./pages/general/Login"
 import ForgotPwd from "./pages/general/ForgotPwd"
+// import MazeApp from "./pages/general/MazeApp"
+import SimpleMaze from "./pages/general/simpleMaze"
+
+
 // Module 1 imports
 import Module1 from "./pages/module1/Module1"
 import VRTour from "./pages/module1/VRTour"
@@ -38,6 +42,8 @@ function App() {
         {/* General routes */}
         <Route path="/" element={<Login />} />
         <Route path="/forgotpwd" element={<ForgotPwd />} />
+        {/* <Route path="/MazeApp" element={<MazeApp />} /> */}
+        <Route path="/simpleMaze" element={<SimpleMaze />} />
         {/* Module 1 routes */}
         <Route path="/Module1" element={<Module1 />} />
         <Route path="/vrtour" element={<VRTour />} />

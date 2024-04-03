@@ -1,18 +1,16 @@
-import React, { useEffect } from 'react';
-import ReactGA from 'react-ga';
-import Maze from './Maze';
+import React from 'react';
+import ThreeMaze from './ThreeMaze';
+import './Maze.css';
 
 function MazeApp() {
-  useEffect(() => {
-    ReactGA.initialize('UA-57676020-1');
-    ReactGA.pageview(window.location.pathname + window.location.search);
-  }, []);
-
-  return (
-    <div className="App">
-      <Maze />
-    </div>
-  );
+    return (
+        <div className="App">
+            <header className="App-header">
+                <h1>Three Maze</h1>
+            </header>
+            <ThreeMaze />
+        </div>
+    );
 }
 
 export default MazeApp;
