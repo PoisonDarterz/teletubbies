@@ -36,6 +36,7 @@ import Schedule from "./pages/module5/schedule";
 import HR from "./pages/module5/hr";
 import Email from "./pages/module5/email";
 import Assign from "./pages/module5/assign";
+import Popup from "./pages/module5/popup";
 
 
 function App() {
@@ -78,6 +79,8 @@ function App() {
         <Route path="/hr" element={<HR />} />
         <Route path="/email" element={<Email />} />
         <Route path="/assign" element={<Assign />} />
+        <Route path="/popup" element={<Popup />} />
+
 
       </Routes>
     </Router>
