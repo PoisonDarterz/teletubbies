@@ -12,12 +12,12 @@ import GeneralInfo from "./pages/module1/GeneralInfo"
 import Station2 from "./pages/module1/station2"
 import Submission from "./pages/module1/Submission"
 import ProfilePage from "./pages/module1/profile";
-import Account from "./pages/module1/account";
 // Module 2 imports
 import Resource from "./pages/module2/resource2"
 import Training from "./pages/module2/training"
 import Page from "./pages/module2/featured"
 import SampleProject from "./pages/module2/sampleproject";
+import Target from "./pages/module2/target";
 import Module2 from "./pages/module2/module2";
 // Module 3 imports
 import Module3 from "./pages/module3/Module3"
@@ -52,13 +52,13 @@ function App() {
         <Route path="/station2" element={<Station2 />} />
         <Route path="/Submission" element={<Submission />} />
         <Route path="/profile" element={<ProfilePage />} />
-        <Route path="/account" element={<Account />} />
         {/* Module 2 routes */}
         <Route path="/module2" element={<Module2 />} />
         <Route path="/resource" element={<Resource />} />
         <Route path="/training" element={<Training />} />
         <Route path="/featured" element={<Page />} />
         <Route path="/sampleproject" element={<SampleProject />} />
+        <Route path="/target" element={<Target />} />
         {/* Module 3 routes */}
         <Route path="/module3" element={<Module3 />} />
         <Route path="/forum" element={<Forum />} />

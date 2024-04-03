@@ -8,6 +8,10 @@ function Button() {
         setShowPopup(true);
     };
 
+    const handleClose = () => {
+        setShowPopup(false);
+    };
+
     return (
         <div style={{ marginTop: '20px', marginBottom: '40px', marginLeft: '40px', marginRight: '20px' }}>
             <button 
@@ -19,7 +23,7 @@ function Button() {
             <button style={{ backgroundColor: '#66ACFF', color: '#FFFFFF', fontWeight: 'bold', padding: '10px', display: 'block', width: '60%' }}>
                 One-to-One call
             </button>
-            {showPopup && <Popup />}
+            {showPopup && <Popup onClose={handleClose} />}
         </div>
     );
 }
