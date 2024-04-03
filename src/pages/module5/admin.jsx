@@ -18,8 +18,8 @@ function Admin() {
         </div>
         <div className="ml-auto mt-16 w-1/3 flex flex-col">
           <MyCalendar />
-          <Link to="/schedule" style={{ backgroundColor: '#BADEE6', color: '#292F65', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '10px', marginTop: '10px', textDecoration: 'none' }}>
-          Check your calendar <span style={{ marginLeft: '10px', color: '#146c94' }}>→</span>
+          <Link to="/schedule" style={{ backgroundColor: '#BADEE6', color: '#292F65', display: 'flex', alignItems: 'center', justifyContent: 'center', width: '300px', padding: '10px', marginTop: '10px', textDecoration: 'none' }}>
+          Check your calendar <span style={{ marginLeft: '10px', alignItems: 'center', color: '#146c94' }}>→</span>
           </Link>
           <PyChart />
         </div>

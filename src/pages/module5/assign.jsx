@@ -45,7 +45,7 @@ function Assign() {
         <input type="text" className="border p-1 rounded" placeholder="Search" />
       </div>
           <div className="overflow-x-auto mt-6 p-4">
-            <table className="w-full table-auto">
+          <table className="w-4/5 mx-auto text-center">
               <thead>
               <tr className="text-sm font-medium text-left text-gray-700 rounded-lg">
                 <th className="w-[15%] px-4 py-2 bg-gray-200">Status</th>

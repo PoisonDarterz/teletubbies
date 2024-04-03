@@ -12,6 +12,8 @@ function ProfilePage() {
                     <p className="text-xl mr-4">Software Engineer</p>
                     <p className="text-xl mr-4">E0122</p>
                     <p className="text-xl mr-4">samuel@dell.com</p>
+                    <button className="bg-[#0076CE] text-white p-2 rounded mt-4">Edit Profile</button>
+                    
 
                     <div className="rounded p-4 mt-4" style={{backgroundColor: '#F6F1F1'}}>
                         <p>Primary Manager: <strong>John</strong></p>
@@ -27,6 +29,7 @@ function ProfilePage() {
                         <p>Senior Software Engineer</p>
                         <p>E0021</p>
                     </div>
+
                 </div>
 
                 <div className="w-2/3 p-4 mr-8 mt-12">
