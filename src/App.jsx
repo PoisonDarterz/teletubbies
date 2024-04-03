@@ -39,6 +39,7 @@ import Assign from "./pages/module5/assign";
 
 
 function App() {
+
   return (
     <Router>
       <Routes>
@@ -54,18 +55,18 @@ function App() {
         <Route path="/profile" element={<ProfilePage />} />
         <Route path="/welcomepackage" element={<WelcomePackage />} />
         {/* Module 2 routes */}
-        <Route path="/module2" element={<Module2 />} />
+        <Route path="/station3" element={<Module2 />} />
         <Route path="/resource" element={<Resource />} />
         <Route path="/training" element={<Training />} />
         <Route path="/featured" element={<Page />} />
         <Route path="/sampleproject" element={<SampleProject />} />
         <Route path="/target" element={<Target />} />
         {/* Module 3 routes */}
-        <Route path="/module3" element={<Module3 />} />
+        <Route path="/station4" element={<Module3 />} />
         <Route path="/forum" element={<Forum />} />
         <Route path="/faq" element={<Faq />} />
         {/* Module 4 routes */}
-        <Route path="/module4" element={<Module4 />} />
+        <Route path="/station5" element={<Module4 />} />
         <Route path="/feedback" element={<Feedback />} />
         <Route path="/helpdesk" element={<HelpDesk />} />
         <Route path="/goal" element={<Goal />} />

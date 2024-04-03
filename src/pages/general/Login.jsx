@@ -1,14 +1,39 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const navigate = useNavigate();
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Handle login logic here
-    console.log(`Logging in with email ${email} and password: ${password}`);
+
+    fetch('http://localhost:5000/login', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email, password }),
+    })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}, ${response.statusText}`);
+        }
+        return response.json();
+      })
+      .then(data => {
+        // Navigate based on the access field
+        console.log(data);
+        if (data.status === 'admin') {
+          navigate("/admin");
+        } else if (data.status === 'employee') {
+          navigate("/station4");
+        } else if (data.status === 'hr'){
+          navigate("/hr");
+        }
+      })
+      .catch(error => {
+        console.error('Error:', error);
+      });
   };
 
   return (
