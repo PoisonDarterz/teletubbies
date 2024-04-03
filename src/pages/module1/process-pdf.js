@@ -26,7 +26,10 @@ export async function extractDataFromPdf(pdfUrl) {
       texts = texts.sort((a, b) => b.height - a.height);
       const name = texts[0].str;
 
-      return {name, phone, address};
+      const education = texts.find(text => text.str.match(/University/i) ).str;
+
+
+      return {name, phone, address, education};
 
       fullText += pageText;
     }

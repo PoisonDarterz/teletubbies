@@ -12,6 +12,7 @@ import GeneralInfo from "./pages/module1/GeneralInfo"
 import Station2 from "./pages/module1/station2"
 import Submission from "./pages/module1/Submission"
 import ProfilePage from "./pages/module1/profile";
+import WelcomePackage from "./pages/module1/WelcomePackage";
 // Module 2 imports
 import Resource from "./pages/module2/resource2"
 import Training from "./pages/module2/training"
@@ -39,6 +40,7 @@ import Popup from "./pages/module5/popup";
 
 
 function App() {
+
   return (
     <Router>
       <Routes>
@@ -52,19 +54,20 @@ function App() {
         <Route path="/station2" element={<Station2 />} />
         <Route path="/Submission" element={<Submission />} />
         <Route path="/profile" element={<ProfilePage />} />
+        <Route path="/welcomepackage" element={<WelcomePackage />} />
         {/* Module 2 routes */}
-        <Route path="/module2" element={<Module2 />} />
+        <Route path="/station3" element={<Module2 />} />
         <Route path="/resource" element={<Resource />} />
         <Route path="/training" element={<Training />} />
         <Route path="/featured" element={<Page />} />
         <Route path="/sampleproject" element={<SampleProject />} />
         <Route path="/target" element={<Target />} />
         {/* Module 3 routes */}
-        <Route path="/module3" element={<Module3 />} />
+        <Route path="/station4" element={<Module3 />} />
         <Route path="/forum" element={<Forum />} />
         <Route path="/faq" element={<Faq />} />
         {/* Module 4 routes */}
-        <Route path="/module4" element={<Module4 />} />
+        <Route path="/station5" element={<Module4 />} />
         <Route path="/feedback" element={<Feedback />} />
         <Route path="/helpdesk" element={<HelpDesk />} />
         <Route path="/goal" element={<Goal />} />

@@ -7,7 +7,8 @@ function ProfilePage() {
     const [profileData, setProfileData] = useState({
         name: '',
         phone: '',
-        address: ''
+        address: '',
+        education: ''
     });
     
     const firstName = profileData.name ? profileData.name.split(' ').slice(1).join(' ') : "";
@@ -90,11 +91,11 @@ function ProfilePage() {
                         </div>
                     </div>
                     <div className="rounded  p-4 mt-2" style={{backgroundColor: '#E1F1FF'}}>
-                        <div className="grid grid-cols-1 gap-4 mt-4">
-                            <div><p className="font-bold text-lg">EDUCATION</p><input className="rounded bg-white p-2 w-full" value="Universiti Malaya, Bachelor of Computer Science (Software Engineering)" /></div>
-                            <div><p className="font-bold text-lg">Previous Working Experience</p><input className="rounded bg-white p-2 w-full" value="Software Engineer Intern, MoneyLion MY" /></div>
-                            <br></br>
-                        </div>
+                    <div className="grid grid-cols-1 gap-4 mt-4">
+                        <div><p className="font-bold text-lg">EDUCATION</p><input className="rounded bg-white p-2 w-full" value={profileData.education} /></div>
+                        <div><p className="font-bold text-lg">Previous Working Experience</p><input className="rounded bg-white p-2 w-full" value="Software Engineer Intern, MoneyLion MY" /></div>
+                        <br></br>
+                    </div>
                     </div>
                 </div>
             </div>
