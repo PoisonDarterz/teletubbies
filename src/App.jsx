@@ -20,6 +20,7 @@ import Page from "./pages/module2/featured"
 import SampleProject from "./pages/module2/sampleproject";
 import Target from "./pages/module2/target";
 import Module2 from "./pages/module2/module2";
+import Testing from "./pages/module2/testing";
 // Module 3 imports
 import Module3 from "./pages/module3/Module3"
 import Forum from "./pages/module3/Forum"
@@ -37,7 +38,9 @@ import HR from "./pages/module5/hr";
 import Email from "./pages/module5/email";
 import Assign from "./pages/module5/assign";
 import Popup from "./pages/module5/popup";
-
+import ForumAdmin from "./pages/module5/ForumAdmin";
+import FAQAdmin from "./pages/module5/FAQAdmin";
+import HelpdeskAdmin from "./pages/module5/HelpdeskAdmin";
 
 function App() {
 
@@ -62,6 +65,7 @@ function App() {
         <Route path="/featured" element={<Page />} />
         <Route path="/sampleproject" element={<SampleProject />} />
         <Route path="/target" element={<Target />} />
+        <Route path="/testing" element={<Testing />} />
         {/* Module 3 routes */}
         <Route path="/station4" element={<Module3 />} />
         <Route path="/forum" element={<Forum />} />
@@ -80,9 +84,10 @@ function App() {
         <Route path="/email" element={<Email />} />
         <Route path="/assign" element={<Assign />} />
         <Route path="/popup" element={<Popup />} />
-
-
-      </Routes>
+        <Route path="/forumadmin" element={<ForumAdmin />} />
+        <Route path="/faqadmin" element={<FAQAdmin />} />
+        <Route path="/helpdeskadmin" element={<HelpdeskAdmin />} />
+       </Routes>
     </Router>
 
   );

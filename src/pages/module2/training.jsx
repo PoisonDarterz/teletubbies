@@ -10,10 +10,10 @@ function Training() {
       <Header />
       <div className="buttons-container mt-0 ml-4 flex">
         <Link to="/featured">
-          <button className="button mr-2" style={{ backgroundColor: '#F6F1F1', width: '179px', height: '60px' }}>Featured</button>
+          <button className="button mr-2" style={{ backgroundColor: '#F6F1F1', width: '179px', height: '60px' }}>Language</button>
         </Link>
         <Link to="/sampleproject">
-          <button className="button mr-2" style={{ backgroundColor: '#F6F1F1', width: '179px', height: '60px' }}>Sample Project</button>
+          <button className="button mr-2" style={{ backgroundColor: '#F6F1F1', width: '179px', height: '60px' }}>Project Showcase</button>
         </Link>
         <Link to="/target">
           <button className="button" style={{ backgroundColor: '#F6F1F1', width: '179px', height: '60px' }}>Target</button>
