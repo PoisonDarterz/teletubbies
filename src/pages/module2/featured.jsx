@@ -40,11 +40,14 @@ function Box({ title, description, imageSrc }) {
           <Header />
           <div className="buttons-container mt-0 ml-4 flex">
         <Link to="/featured">
-      <button className="button mr-2" style={{ backgroundColor: '#F6F1F1', width: '179px', height: '60px' }}>Featured</button>
-      </Link>
-      <Link to="/sampleproject">
-      <button className="button mr-2" style={{ backgroundColor: 'rgba(246, 241, 241, 0.27)', width: '179px', height: '60px' }}>Sample Project</button>
-      </Link>
+          <button className="button mr-2" style={{ backgroundColor: '#F6F1F1', width: '179px', height: '60px' }}>Featured</button>
+        </Link>
+        <Link to="/sampleproject">
+          <button className="button mr-2" style={{ backgroundColor: '#F6F1F1', width: '179px', height: '60px' }}>Sample Project</button>
+        </Link>
+        <Link to="/target">
+          <button className="button" style={{ backgroundColor: '#F6F1F1', width: '179px', height: '60px' }}>Target</button>
+        </Link>
       </div>
       <div className="bg-[#F6F1F1] p-8">
             <div className="flex flex-wrap -mx-4">
