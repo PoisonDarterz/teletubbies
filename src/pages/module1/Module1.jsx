@@ -8,7 +8,7 @@ function Module1(){
             <Link to="/VRTour">
                 <img src="/officeTour_vector.png" alt="Lamp" style={{ position: 'absolute', top: '138px', left: '485px', width: '330px' }}/>
             </Link>
-            <Link to="/ProfilePage">
+            <Link to="/Profile">
                 <img src="/profile_vector.png" alt="Book" style={{ position: 'absolute', top: '475px', left: '708px', width: '215px' }}/>
             </Link>
             <Link to="/">

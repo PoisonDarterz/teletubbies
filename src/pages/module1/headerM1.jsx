@@ -13,7 +13,7 @@ function Header() {
       </div>
       <div className="flex items-center space-x-4">
       <img src="SamuelChan.jpg" alt="Profile" className="w-8 h-8 bg-white rounded-full" />
-        <Link to="/map" className="text-white">Map</Link>
+        <Link to="/station1" className="text-white">Map</Link>
       </div>
     </nav>
   );
