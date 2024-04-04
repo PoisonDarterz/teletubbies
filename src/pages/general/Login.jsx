@@ -9,7 +9,7 @@ function Login() {
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    fetch('http://localhost:5000/login', {
+    fetch('http://localhost:5001/login', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ email, password }),
@@ -26,7 +26,7 @@ function Login() {
         if (data.status === 'admin') {
           navigate("/admin");
         } else if (data.status === 'employee') {
-          navigate("/station4");
+          navigate("/maze");
         } else if (data.status === 'hr'){
           navigate("/hr");
         }

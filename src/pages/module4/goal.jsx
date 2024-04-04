@@ -25,6 +25,7 @@ function Goal() {
                 <div className="bg-[#EAEDFF] rounded p-5 mb-5 h-40 overflow-auto" contentEditable>
                     {/* rest of your code */}
                 </div>
+                <button className="mt-5 bg-blue-500 text-white py-2 px-4 rounded">Submit</button>
             </div>
         </div>
     );

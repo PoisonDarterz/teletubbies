@@ -6,20 +6,16 @@ function Module1(){
     return (
         <div className={styles.background} >
             <Link to="/VRTour">
-                <img src="/officeTour_vector.png" alt="Lamp" style={{ position: 'absolute', top: '100px', left: '390px', width: '270px' }}/>
-                {/* <span className={styles.label} style={{ top: '860px', left: '900px', color:'#000' }}>Office<br></br>Tour</span> */}
+                <img src="/officeTour_vector.png" alt="Lamp" style={{ position: 'absolute', top: '138px', left: '485px', width: '330px' }}/>
             </Link>
             <Link to="/ProfilePage">
-                <img src="/profile_vector.png" alt="Book" style={{ position: 'absolute', top: '380px', left: '560px', width: '180px' }}/>
-                {/* <span className={styles.label} style={{ top: '120px', left: '700px' }}>Profile</span> */}
+                <img src="/profile_vector.png" alt="Book" style={{ position: 'absolute', top: '475px', left: '708px', width: '215px' }}/>
             </Link>
             <Link to="/">
-                <img src="/accSetUp_vector.png" alt="Keyboard1" style={{ position: 'absolute', top: '290px', left: '710px', width: '280px' }}/>
-                {/* <span className={styles.label} style={{ top: '100px', left: '1670px' }}>Account<br></br>Set Up</span> */}
+                <img src="/accSetUp_vector.png" alt="Keyboard1" style={{ position: 'absolute', top: '355px', left: '880px', width: '355px' }}/>
             </Link>
             <Link to="/GeneralInfo">
-                <img src="/information_vector.png" alt="Coffee" style={{ position: 'absolute', top: '133px', left: '893px', width: '125px' }}/>
-                {/* <span className={styles.label} style={{ top: '450px', left: '790px' }}>Information</span> */}
+                <img src="/information_vector.png" alt="Coffee" style={{ position: 'absolute', top: '160px', left: '1110px', width: '155px' }}/>
             </Link>
         </div>
     );
