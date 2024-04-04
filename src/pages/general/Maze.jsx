@@ -43,6 +43,20 @@ const Maze = () => {
                     </div>
                 </div>
             )}
+<div style={{
+    position: 'fixed',
+    bottom: 0,
+    left: 0,
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    padding: '20px',
+    backgroundColor: '#282c34' // Same as the background color of the parent div
+}}>
+    <img src="/info.png" alt="Icon 1" style={{width: '30px', height: '30px', marginRight: '20px'}} />
+    <img src="/chat.png" alt="Icon 2" style={{width: '30px', height: '30px', marginRight: '20px'}} />
+    <img src="/profile.png" alt="Icon 3" style={{width: '30px', height: '30px'}} />
+</div>
         </div>
     );
 };
